@@ -1,0 +1,96 @@
+section p.text-justify {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+.section-heading {
+  border-bottom-width: 2px !important;
+}
+.h5-5 {
+  font-size: 18px;
+  line-height: 1.25;
+}
+.navbar-light.bg-light {
+  background: #ddd !important;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 12px !important;
+  cursor: pointer !important;
+}
+.navbar .navbar-brand {
+  flex: 0 0 240px;
+  text-align: left;
+}
+.navbar .navbar-brand img {
+  max-width: 240px;
+}
+.navbar-light .bg-light {
+  background-color: #dddddd;
+}
+.page-heading {
+  position: relative;
+}
+.page-heading::after {
+  content: " ";
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  height: 2px;
+  width: 80%;
+  background-color: var(--secondary);
+}
+footer {
+  background: url("../assets/footer.jpg") center no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+}
+.card-img-top.team {
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-sizing: content-box;
+  border-radius: 50%;
+  background: var(--secondary);
+  background-clip: border-box;
+  margin: 2px;
+  border: 2px solid var(--secondary);
+}
+.card-img-top.team img {
+  object-fit: contain;
+  width: 99%;
+  margin: auto;
+  border-radius: 50%;
+}
+input[type="file"].form-control{
+  height: auto !important;
+}
+@media all and (min-width: 992px) {
+  .w-md-50 {
+    width: 50%;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .navbar .navbar-brand {
+    flex: 0 0 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .navbar .navbar-brand img {
+    max-width: 256px;
+  }
+  .nav-link {
+    padding: 20px !important;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: var(--secondary);
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
